@@ -7,11 +7,11 @@ public class Field {
 	private ArrayList<Hai> wanpai = new ArrayList<Hai>();
 	private ArrayList<Player> players = new ArrayList<Player>();
 	private ArrayList<Hai> doras = new ArrayList<Hai>();
-	private HaiType fieldWind = HaiType.TON;
+//	private HaiType fieldWind = HaiType.TON;
 	private int kyoku = 0;
-	private int honba = 0;
+//	private int honba = 0;
 	private Random rand;
-	private int reach = 0;
+//	private int reach = 0;
 	
 	public Field(int number){
 		for(int i = 0;i < number;i++)
@@ -41,13 +41,13 @@ public class Field {
 		}
 	}
 	public void renchan(){
-		honba++;
+//		honba++;
 	}
 	public void ryukyoku(){
 		if(kyoku == 4)kyoku = 0;
 //		fieldWind.getNextKaze();
 		kyoku++;
-		honba = 0;
+//		honba = 0;
 	}
 	public Hai getHai(){
 		Hai hai = yama.get(rand.nextInt(yama.size()));

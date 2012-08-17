@@ -7,10 +7,10 @@ enum HaiType {
 	TON(27), NAN(28), SYA(29), PE(30),
 	HAKU(31), HATSU(32), TYUN(33);
 	
-	private final int type;
+//	private final int type;
 	
 	private HaiType(int type){
-		this.type = type;
+//		this.type = type;
 	}
 	
 	public boolean isSuhai(int x){
