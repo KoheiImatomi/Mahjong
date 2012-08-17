@@ -45,7 +45,7 @@ public class Field {
 	}
 	public void ryukyoku(){
 		if(kyoku == 4)kyoku = 0;
-		fieldWind.getNextKaze();
+//		fieldWind.getNextKaze();
 		kyoku++;
 		honba = 0;
 	}
