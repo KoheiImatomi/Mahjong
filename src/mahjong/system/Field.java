@@ -44,7 +44,11 @@ public class Field {
 	}
 	
 	public void test(){
-		System.out.println("this is test method");
+		System.out.println("this is test method.");
+	}
+	
+	public void test2(){
+		System.out.println("this is test method 2.");
 	}
 	
 	public void renchan(){
