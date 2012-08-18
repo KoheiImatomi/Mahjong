@@ -42,6 +42,11 @@ public class Field {
 			}
 		}
 	}
+	
+	public void test(){
+		System.out.println("this is test method");
+	}
+	
 	public void renchan(){
 		honba++;
 	}
