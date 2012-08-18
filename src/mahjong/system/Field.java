@@ -58,4 +58,8 @@ public class Field {
 		yama.remove(hai);
 		return hai;
 	}
+	public void printPoint(){
+		for(Player player:players)
+			System.out.println(player.getScore());
+	}
 }
