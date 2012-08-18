@@ -9,11 +9,6 @@ public class Hai {
 		this.aka = aka;
 	}
 	
-	public void sss(){
-		aka = true;
-	}
-	
-	
 	public HaiType getType(){		
 		return type;
 	}
